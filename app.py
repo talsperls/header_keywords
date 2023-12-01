@@ -2,6 +2,15 @@ import requests
 import sys
 import pandas as pd
 
+print("#"*90)
+print("     Author: Tal Sperling")
+print("     Version: 2.0.0")
+print("     This code is to be used for educational purposes or legal penetration testing only")
+print("     I do not take responsibility for any misuse or illegal action/use of this code")
+print("#"*90+"\n")
+
+
+
 try:
     urls_to_scan = open(sys.argv[1], 'r')
     keyword = sys.argv[2]
